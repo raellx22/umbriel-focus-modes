@@ -1,0 +1,11 @@
+[[plugin]]
+id = "raell/umbriel-focus-modes"
+name = "Umbriel Focus Modes"
+version = "1.0.0"
+plugin_api = 24
+author = "Raell"
+license = "MIT"
+icon = "focus-2"
+description = "Matches Umbriel focus-follows-mouse behavior to the focused workspace layout."
+tags = ["service", "system", "utility"]
+dependencies = ["umbriel"]

@@ -1,0 +1,10 @@
+{
+  "settings.automatic.label": "Enable automatic focus mode",
+  "settings.automatic.description": "Match focus-follows-mouse to the focused Umbriel workspace layout. Turning this off restores the value that existed before installation.",
+  "settings.scrolling.label": "Follow mouse in Scrolling",
+  "settings.scrolling.description": "Focus the window under the pointer while the focused workspace uses Scrolling.",
+  "settings.dwindle.label": "Follow mouse in Dwindle",
+  "settings.dwindle.description": "Focus the window under the pointer while the focused workspace uses Dwindle.",
+  "settings.master.label": "Follow mouse in Master",
+  "settings.master.description": "Focus the window under the pointer while the focused workspace uses Master."
+}

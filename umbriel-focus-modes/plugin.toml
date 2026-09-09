@@ -1,0 +1,45 @@
+id = "raell/umbriel-focus-modes"
+name = "Umbriel Focus Modes"
+version = "1.0.0"
+plugin_api = 26
+author = "Raell"
+license = "MIT"
+icon = "focus-2"
+description = "Matches Umbriel focus-follows-mouse behavior to the focused workspace layout."
+tags = ["service", "system", "utility"]
+dependencies = ["umbriel"]
+
+[[setting]]
+key = "automatic"
+type = "bool"
+label_key = "settings.automatic.label"
+description_key = "settings.automatic.description"
+default = true
+
+[[setting]]
+key = "scrolling_follow_mouse"
+type = "bool"
+label_key = "settings.scrolling.label"
+description_key = "settings.scrolling.description"
+default = false
+visible_when = { key = "automatic", values = ["true"] }
+
+[[setting]]
+key = "dwindle_follow_mouse"
+type = "bool"
+label_key = "settings.dwindle.label"
+description_key = "settings.dwindle.description"
+default = true
+visible_when = { key = "automatic", values = ["true"] }
+
+[[setting]]
+key = "master_follow_mouse"
+type = "bool"
+label_key = "settings.master.label"
+description_key = "settings.master.description"
+default = true
+visible_when = { key = "automatic", values = ["true"] }
+
+[[service]]
+id = "focus-mode"
+entry = "service.luau"
