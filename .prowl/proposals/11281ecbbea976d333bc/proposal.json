@@ -1,0 +1,28 @@
+{
+  "id": "11281ecbbea976d333bc",
+  "operation": "create",
+  "target_path": "decisions/live-focus-fragment-sync.md",
+  "candidate_path": "11281ecbbea976d333bc/candidate.md",
+  "status": "accepted",
+  "author": "Raell",
+  "created_at": "2026-09-09T22:26:41Z",
+  "reviewed_at": "2026-09-09T22:26:44Z",
+  "decision": {
+    "schema_version": "prowl.knowledge-decision/v1",
+    "proposal_id": "11281ecbbea976d333bc",
+    "action": "accept",
+    "idempotency_key": "95e18ef5181c454ad1f302ad05271bcad2f1fab3252a426c7bf8f690652aab6a",
+    "principal_id": "local-operator",
+    "expected_version": "8353438da3b1c0dde8412a0b3aa23dbd1e6459aa233998885f77b048d471c9d1",
+    "version_before": "8353438da3b1c0dde8412a0b3aa23dbd1e6459aa233998885f77b048d471c9d1",
+    "version_after": "2073542b3db75af3b70f4669e110710872d513daf36ad6a634428833ee1c68fd",
+    "decided_at": "2026-09-09T22:26:44.098077028Z",
+    "rollback": {
+      "paths": [
+        "decisions/live-focus-fragment-sync.md",
+        "index.md",
+        "log.md"
+      ]
+    }
+  }
+}
